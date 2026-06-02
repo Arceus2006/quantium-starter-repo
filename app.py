@@ -200,7 +200,7 @@ app.layout = html.Div(
                         html.P("Soul Foods Co. — Analytics", className="brand-eyebrow"),
                         html.H1(
                             ["Pink Morsel ", html.Span("Sales"), " Visualiser"],
-                            className="brand-title"
+                            className="brand-title", id="header"
                         ),
                     ]
                 ),
